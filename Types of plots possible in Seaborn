@@ -1,0 +1,9 @@
+Now to talk about the types of plots possible in Seaborn:
+
+pointplot
+Syntax: sns.pointplot(x='Column_name',y='Column_name', data=df)
+Note to remember: pointplot does not require x to be numbers, i.e it can be in words e.g Kelden however y has to be in numbers
+
+ScatterPlot
+Syntax: sns.lmplot(x='Column_name', y='Column_name', data=df)
+Note to remember: ScatterPlot requires both x and y to be numbers
