@@ -7,3 +7,7 @@ Note to remember: pointplot does not require x to be numbers, i.e it can be in w
 ScatterPlot
 Syntax: sns.lmplot(x='Column_name', y='Column_name', data=df)
 Note to remember: ScatterPlot requires both x and y to be numbers
+
+Histogram
+Syntax: sns.distplot(df.Age) # That is the column Age inside the CSV file.
+Note to remember: You only need to add the column and a histogram will you created for you
